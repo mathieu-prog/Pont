@@ -1,0 +1,44 @@
+*{
+
+	font-family:'Arial Narrow';
+}
+
+form{
+	border-radius: 15px;
+font-family:sans-serif ;
+box-shadow: 1px 1px 10px 1px black;
+width: 600px;
+padding: 15px;
+background-color: rgb(81, 221, 144);
+margin: 40px auto;
+
+}
+input,label{
+font-size: 18px;
+padding: 10px;
+margin-bottom: 5px;
+
+
+}
+input{
+border-radius: 20px;
+border:none ;
+
+}
+.conteneur{
+align-content: center;
+justify-items: center;
+
+}
+body{
+	background-color:white;
+}
+
+}
+.info_profileconnected{
+  	display:flex;
+  }
+.f{
+	display: grid;
+	grid-template-columns: 2fr 6fr;
+}

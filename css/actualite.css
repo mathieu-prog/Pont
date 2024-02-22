@@ -1,0 +1,93 @@
+*{
+
+	font-family:'Arial Narrow';
+}
+
+.container{
+	background-color: rgb(218,218,212);
+}
+.infobody{
+	display: grid;
+	grid-template-columns: 7fr 3fr;
+	margin-left: 150px;
+	margin-right: 150px;
+
+}
+.a_la_une{
+background-color: white;
+grid-column:3/1;
+margin: 2px;
+
+}
+.publicite{
+background-color: white;
+margin: 2px ;
+}
+.infos{
+background-color: white;
+margin: 2px;
+}
+
+.infocompte{
+display: block;
+margin: 5px;
+
+}
+.infophoto{
+	margin: 5px;
+
+}
+.infotexte{
+
+	margin:5px;
+}
+.infos a{
+text-decoration: none;
+}
+
+.infophoto img{
+	height: 400px;
+	width: 800px;
+
+}
+.publicite img{
+	width	:600px;
+} 
+.reactions{
+	width: 100%;
+display: flex;
+flex-direction: column;
+
+ }
+.like_dislike{ 
+width: 100%;
+justify-content: space-between;
+display: flex;
+flex-direction: row;
+ }
+ .likedis{
+ 	background: rgb(240, 240, 240);
+ 	border-radius: 20px;
+ }
+
+
+ .comments{
+ 	margin: 5px;
+ 	background: gray;
+ }
+ .card_comment{
+ 	background: white;
+ 	padding: 10px;
+ }
+  .card_comment:hover{
+ 	background: #f6f5f7;
+ }
+  .card_comment label{
+  	float: right;
+  	font-weight: 500;
+  	color: red;
+  }
+  .info_profileconnected{
+  	display:flex;
+
+  }

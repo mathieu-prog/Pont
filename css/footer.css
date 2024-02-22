@@ -1,0 +1,15 @@
+*{
+
+	font-family:'Arial Narrow';
+}
+
+.footer{
+display: flex;
+justify-content: space-between;
+margin-left: 200px;
+margin-right: 200px;
+
+}
+footer{
+	background: rgb(124, 124, 128);
+}

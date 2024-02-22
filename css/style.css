@@ -1,0 +1,98 @@
+*{
+
+	font-family:'Arial Narrow';
+}
+
+
+
+.container{
+	background-color: rgb(218,218,212);
+}
+.infobody{
+	display: grid;
+	grid-template-columns: 7fr 3fr;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 10px;
+
+}
+.a_la_une{
+background-color: white;
+grid-column:3/1;
+margin: 2px;
+
+}
+.publicite{
+background-color: white;
+margin: 2px ;
+}
+.infos{
+background-color: rgb(218,218,212);;
+}
+
+.infocompte{
+	background-color: white;
+display: flex;
+margin: 5px;
+height: 170px;
+overflow:hidden;
+
+}
+.infophoto{
+	margin: 5px;
+
+}
+.infotexte{
+	margin:5px;
+
+	
+	
+}
+
+.infos a{
+text-decoration: none;
+
+}
+
+.infophoto img{
+	height: 100px;
+	width: 200px;
+}
+.info_profileconnected{
+  	display: flex;
+  }
+ 
+ .publicite_carte{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 10px;
+}
+.publicite_carte label1{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-bottom: 2px solid red;
+width: 95%;
+}
+.publicite_carte img{
+	width: 90%;
+}
+.publicite_carte label2{
+	font-family: sans-serif;
+	font-weight: 300;
+}
+.actualite_carte {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-bottom: 2px solid red;
+width: 95%;}
+.actualite_carte img{
+		width: 90%;}
+		.actualite_carte{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 10px;
+}

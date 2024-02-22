@@ -1,0 +1,55 @@
+*{
+
+	font-family:'Arial Narrow';
+}
+.footer{
+display: flex;
+justify-content: space-between;
+
+}
+footer{
+	background: rgb(124, 124, 128);
+}
+
+.container{
+justify-content: center;
+justify-items: center;
+width: 900px;
+margin: 10px auto;
+}
+
+.profile_picture img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+.contact-box{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+textarea{
+	width: 100%;
+}
+.type-messages input{
+	width: 100%;
+	padding: 15px;
+}
+.messages{
+	height: 550px;
+	background: #f6f5f7;
+	display: flex;
+	flex-direction: column;
+	overflow-y: scroll;
+}
+.message_card_right{
+	background: skyblue;
+	float: left;
+	width:fit-content;
+	margin-bottom: 4px;
+
+}
+.messages img{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
